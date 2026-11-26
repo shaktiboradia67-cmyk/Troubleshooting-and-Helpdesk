@@ -283,4 +283,90 @@ The recent error logs and Reliability Monitor screenshot provide an overview of 
 
 All collected information is intended for system health documentation and future troubleshooting reference.
 # Q4.<p>Finish by building 'diagnostic_index.txt' in 'mehta_rao_diag' listing every file in the folder with the tool that produced it, then one line each for CPU, RAM, storage, display and events marked OK or CHECK with a quoted line from your files as evidence. Add the line 'PSU voltage: LAB ONLY - multimeter, not tested at home'. Zip the folder as 'mehta_rao_diag.zip' and submit it. Constraint: Do not open any hardware or buy any tool for this task.</p>
-Ans.> 
+Ans.> # Q4. Final Diagnostic Index and Submission
+
+**Organization:** Mehta & Rao Associates  
+**Location:** Ahmedabad, Gujarat, India  
+**Project:** System Diagnostic Baseline Report  
+**Operating System:** Windows Laptop
+
+## 1. Diagnostic File Inventory
+
+| File Name | Tool Used | Purpose |
+|---|---|---|
+| README.md | Markdown Editor | Project documentation |
+| collect_diagnostics.ps1 | Windows PowerShell | Diagnostic data collection script |
+| diagnostic_index.txt | Notepad | System diagnostic index |
+| reliability_monitor.png | Windows Reliability Monitor (perfmon /rel) | System reliability screenshot |
+
+## 2. System Health Summary
+
+**CPU: CHECK**
+
+Evidence: "baseline_systeminfo.txt - MISSING"
+
+The CPU information report is pending collection.
+
+**RAM: CHECK**
+
+Evidence: "baseline_systeminfo.txt - MISSING"
+
+The physical memory report is pending collection.
+
+**Storage: CHECK**
+
+Evidence: "storage_health.txt - MISSING"
+
+Storage health information is pending collection.
+
+**Display: CHECK**
+
+Evidence: "baseline_dxdiag.txt - MISSING"
+
+Display and graphics information is pending collection.
+
+**Events: CHECK**
+
+Evidence: "recent_errors.txt - MISSING"
+
+Recent Critical and Error event information is pending collection.
+
+## 3. Reliability Monitor
+
+The Reliability Monitor screenshot is saved as:
+
+`reliability_monitor.png`
+
+Tool used: `perfmon /rel`
+
+The screenshot documents the Windows system reliability history.
+
+## 4. PSU Voltage
+
+PSU voltage: LAB ONLY - multimeter, not tested at home
+
+## 5. Safety and Privacy
+
+- Only read-only diagnostic commands are intended.
+- No hardware was opened.
+- No repair, format, or clean operations were performed.
+- No external testing equipment was purchased.
+- Computer name, username, and hardware serial numbers must be replaced with XXXX before submission.
+
+## 6. Final Submission
+
+**ZIP Filename:** `mehta_rao_diag.zip`
+
+The diagnostic documentation package has been uploaded to the GitHub repository.
+
+## 7. Conclusion
+
+The diagnostic project establishes the documentation structure for system health assessment at Mehta & Rao Associates.
+
+The Reliability Monitor screenshot and diagnostic collection script are included. CPU, RAM, storage, display, and event health remain marked CHECK because their actual diagnostic reports are not yet available.
+
+The project can be completed after collecting and reviewing the missing system diagnostic reports.
+
+**Overall Assessment: PARTIAL SUBMISSION – Additional diagnostic evidence required.**
+
+**END OF REPORT**
